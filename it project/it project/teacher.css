@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+display: flex;
+background-color: rgba(199, 255, 252, 1);
+align-items: center;
+height: 10vh;
+
+
+    
+}
+
+ .logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+ }   
+
+ .main{
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+color: black;
+ }
+
+ .about{
+    font-size: 20px;
+    text-decoration: none;  
+    color: black;
+    margin-right: 60%;
+
+ }
+
+ .search{
+    border-radius: 30px;
+    width: 200px;
+ }
+
+ .icon{
+   width: 35px;
+   height: 35px;
+   margin-left: 23px;
+ }
+
+ main{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+ }
+
+
+ .text{
+   width: 50%;
+   margin: 40px;
+   font-size: 20px;
+   text-align: center;
+
+ }
+
+ .btn_creat{
+    width: 180px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgba(113, 202, 240, 1);
+    margin-bottom: 40px;
+    
+ }
+  .btn_object{
+   width: 750px;
+   height: 50px;
+   border-radius: 30px;
+   background: rgba(175, 255, 250, 1);
+   margin-bottom: 40px;
+   font-size: 20px;
+}
